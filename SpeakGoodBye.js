@@ -26,7 +26,9 @@ function speak(name) {
 /* let byeSpeaker = {}
 byeSpeaker.speak = speak */
 let byeSpeaker = {}
+
 byeSpeaker.speakWord = "Good Bye"
+
 byeSpeaker.speak = (name) => {
   console.log(byeSpeaker.speakWord  + " " + name);
 }
